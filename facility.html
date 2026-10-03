@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Facilities - Kiddle Preschool & Kindergarten</title>
+  <meta name="description" content="Tour our state-of-the-art campus featuring smart classrooms, sensory gardens, certified organic dining, and safe adventure playgrounds.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" onerror="this.onerror=null;this.href='img/favicon.svg';">
+
+  <!-- Google Fonts Preconnect & Ordered Multi-Language Typography (Khmer & Latin) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Kantumruy+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" onerror="this.onerror=null;this.href='css/style.css';">
+</head>
+<body>
+
+  <!-- Top Running Announcement Marquee (អក្សររត់ប្រកាសដំណឹង & ការចុះឈ្មោះ) -->
+  <div class="top-ticker-bar" id="top-announcement-ticker">
+    <div class="ticker-badge-wrap">
+      <span class="ticker-icon"><i class="fa-solid fa-bullhorn"></i></span>
+      <span class="ticker-badge-text">ដំណឹងថ្មី &amp; ចុះឈ្មោះ</span>
+    </div>
+    <div class="ticker-track-wrap">
+      <div class="ticker-track">
+        <!-- Segment 1 -->
+        <div class="ticker-segment">
+          <span class="ticker-item">
+            🎉 <strong>ចុះឈ្មោះចូលរៀនឆ្នាំ ២០២៦-២០២៧:</strong> ទទួលបានអាហារូបករណ៍បញ្ចុះតម្លៃសិក្សា <span class="ticker-highlight">២០% (Early Bird 20% OFF)</span> សម្រាប់ ៥០ នាក់ដំបូង!
+          </span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">
+            🏫 <strong>ទស្សនកិច្ចសាលា &amp; បន្ទប់ឆ្លាតវៃ:</strong> កក់ម៉ោងទស្សនកិច្ចសាលាឥតគិតថ្លៃ <a href="appointment.html" class="ticker-link"><i class="fa-solid fa-calendar-check"></i> កក់ឥឡូវនេះ</a>
+          </span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">
+            🎨 <strong>កម្មវិធីសិក្សា STEAM &amp; Play:</strong> បើកទទួលកុមារអាយុចាប់ពី ១.៥ ឆ្នាំ ដល់ ៦ ឆ្នាំ ជាមួយគ្រូជំនាញគរុកោសល្យអន្តរជាតិ
+          </span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">
+            🍎 <strong>អាហារូបត្ថម្ភសរីរាង្គ (Organic Meals):</strong> ផ្ដល់អាហារ ៣ ពេលប្រកបដោយអនាម័យខ្ពស់ និងបន្ទប់សុខាភិបាល ២៤/៧
+          </span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">
+            📞 <strong>ប្រឹក្សាព័ត៌មានផ្ទាល់:</strong> <a href="tel:+15553456789" class="ticker-link"><i class="fa-solid fa-phone"></i> +1 (555) 345-6789</a> (រៀងរាល់ថ្ងៃចន្ទ - សុក្រ)
+          </span>
+          <span class="ticker-sep">✦</span>
+        </div>
+        <!-- Segment 2 (Duplicate for seamless continuous loop) -->
+        <div class="ticker-segment" aria-hidden="true">
+          <span class="ticker-item">
+            🎉 <strong>ចុះឈ្មោះចូលរៀនឆ្នាំ ២០២៦-២០២៧:</strong> ទទួលបានអាហារូបករណ៍បញ្ចុះតម្លៃសិក្សា <span class="ticker-highlight">២០% (Early Bird 20% OFF)</span> សម្រាប់ ៥០ នាក់ដំបូង!
+          </span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">
+            🏫 <strong>ទស្សនកិច្ចសាលា &amp; បន្ទប់ឆ្លាតវៃ:</strong> កក់ម៉ោងទស្សនកិច្ចសាលាឥតគិតថ្លៃ <a href="appointment.html" class="ticker-link"><i class="fa-solid fa-calendar-check"></i> កក់ឥឡូវនេះ</a>
+          </span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">
+            🎨 <strong>កម្មវិធីសិក្សា STEAM &amp; Play:</strong> បើកទទួលកុមារអាយុចាប់ពី ១.៥ ឆ្នាំ ដល់ ៦ ឆ្នាំ ជាមួយគ្រូជំនាញគរុកោសល្យអន្តរជាតិ
+          </span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">
+            🍎 <strong>អាហារូបត្ថម្ភសរីរាង្គ (Organic Meals):</strong> ផ្ដល់អាហារ ៣ ពេលប្រកបដោយអនាម័យខ្ពស់ និងបន្ទប់សុខាភិបាល ២៤/៧
+          </span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">
+            📞 <strong>ប្រឹក្សាព័ត៌មានផ្ទាល់:</strong> <a href="tel:+15553456789" class="ticker-link"><i class="fa-solid fa-phone"></i> +1 (555) 345-6789</a> (រៀងរាល់ថ្ងៃចន្ទ - សុក្រ)
+          </span>
+          <span class="ticker-sep">✦</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-info">
+        <span><i class="fa-solid fa-location-dot"></i> 742 Evergreen Terrace, Springfield</span>
+        <span><i class="fa-solid fa-clock"></i> Mon - Fri: 8:00 AM - 5:30 PM</span>
+        <span><i class="fa-solid fa-phone"></i> +1 (555) 345-6789</span>
+      </div>
+      <div class="top-bar-social">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-icon">
+          <i class="fa-solid fa-shapes"></i>
+        </div>
+        <div>
+          <div class="brand-title">Kid<span>dle</span></div>
+          <span class="brand-subtitle">Preschool &amp; Kindergarten</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="classes.html" class="nav-link">Classes</a></li>
+        
+        <li class="nav-item nav-dropdown">
+          <a href="#" class="nav-link active">Pages <i class="fa-solid fa-chevron-down" style="font-size: 0.75rem; margin-left: 4px;"></i></a>
+          <div class="nav-dropdown-menu">
+            <a href="facility.html" class="nav-dropdown-item active">School Facilities</a>
+            <a href="team.html" class="nav-dropdown-item">Our Teachers</a>
+            <a href="call-to-action.html" class="nav-dropdown-item">Admissions CTA</a>
+            <a href="testimonial.html" class="nav-dropdown-item">Parent Testimonials</a>
+            <a href="404.html" class="nav-dropdown-item">404 Recess Page</a>
+          </div>
+        </li>
+
+        <li class="nav-item"><a href="appointment.html" class="nav-link">Appointment</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="appointment.html" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-calendar-check"></i> Book a Tour
+        </a>
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Page Header Banner -->
+  <header class="page-header">
+    <div class="shape-bubble shape-1"></div>
+    <div class="shape-bubble shape-2"></div>
+    <div class="shape-bubble shape-3"></div>
+    <div class="container">
+      <h1 class="page-header-title">Our Campus Facilities</h1>
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a>
+        <i class="fa-solid fa-angle-right" style="font-size: 0.75rem; color: var(--muted-text);"></i>
+        <span>Facilities</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Facilities Gallery Section -->
+  <section class="section bg-white">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-badge">Purpose-Built Architecture</span>
+        <h2>Designed Exclusively For Children's Joy &amp; Safety</h2>
+        <p>Every room, floor surface, and outdoor path was carefully engineered to provide the safest, brightest developmental sanctuary.</p>
+      </div>
+
+      <div class="facility-grid">
+        <!-- Facility 1 -->
+        <div class="facility-card fc-coral">
+          <div class="facility-img-box">
+            <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=500&q=80" alt="Sunlit classroom with child size tables">
+            <div class="facility-icon-badge"><i class="fa-solid fa-chalkboard-user"></i></div>
+          </div>
+          <div class="facility-content">
+            <h3 class="facility-title">Sunlit Smart Classrooms</h3>
+            <p class="facility-desc">Floor-to-ceiling double-glazed windows, anti-glare touch monitors, and modular round wooden furniture promoting circle discussions.</p>
+          </div>
+        </div>
+
+        <!-- Facility 2 -->
+        <div class="facility-card fc-green">
+          <div class="facility-img-box">
+            <img src="https://images.unsplash.com/photo-1541689592655-f5f52825a3b8?auto=format&fit=crop&w=500&q=80" alt="Outdoor playground with sand and wood">
+            <div class="facility-icon-badge"><i class="fa-solid fa-tree"></i></div>
+          </div>
+          <div class="facility-content">
+            <h3 class="facility-title">Eco-Playground &amp; Garden</h3>
+            <p class="facility-desc">Safe rubberized turf, pine climbing towers, balance ropes, sensory vegetable patches, and covered shaded pavilions.</p>
+          </div>
+        </div>
+
+        <!-- Facility 3 -->
+        <div class="facility-card fc-blue">
+          <div class="facility-img-box">
+            <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=500&q=80" alt="Children library with cozy reading beanbags">
+            <div class="facility-icon-badge"><i class="fa-solid fa-book-open-reader"></i></div>
+          </div>
+          <div class="facility-content">
+            <h3 class="facility-title">Storybook Library</h3>
+            <p class="facility-desc">Over 2,000 international picture books, cozy velvet reading teepees, and weekly guest author read-aloud events.</p>
+          </div>
+        </div>
+
+        <!-- Facility 4 -->
+        <div class="facility-card fc-yellow">
+          <div class="facility-img-box">
+            <img src="https://images.unsplash.com/photo-1567057419565-4349c49d8a04?auto=format&fit=crop&w=500&q=80" alt="Clean dining hall and kitchen">
+            <div class="facility-icon-badge"><i class="fa-solid fa-utensils"></i></div>
+          </div>
+          <div class="facility-content">
+            <h3 class="facility-title">Organic Farm-to-Table Dining</h3>
+            <p class="facility-desc">A sparkling stainless-steel certified kitchen where our executive children's chef prepares allergy-safe organic daily meals.</p>
+          </div>
+        </div>
+
+        <!-- Facility 5 -->
+        <div class="facility-card fc-purple">
+          <div class="facility-img-box">
+            <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=500&q=80" alt="Creative arts and crafts studio">
+            <div class="facility-icon-badge"><i class="fa-solid fa-palette"></i></div>
+          </div>
+          <div class="facility-content">
+            <h3 class="facility-title">Creative Art &amp; Clay Studio</h3>
+            <p class="facility-desc">Washable splash aprons, standing easel stations, non-toxic pottery wheels, and mixed-media collage supplies.</p>
+          </div>
+        </div>
+
+        <!-- Facility 6 -->
+        <div class="facility-card fc-blue">
+          <div class="facility-img-box">
+            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=500&q=80" alt="Science and light discovery table">
+            <div class="facility-icon-badge"><i class="fa-solid fa-flask"></i></div>
+          </div>
+          <div class="facility-content">
+            <h3 class="facility-title">Junior STEAM Discovery Lab</h3>
+            <p class="facility-desc">Magnification prisms, sensory color projection tables, toddler coding blocks, and junior plant germination terrariums.</p>
+          </div>
+        </div>
+
+        <!-- Facility 7 -->
+        <div class="facility-card fc-coral">
+          <div class="facility-img-box">
+            <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=500&q=80" alt="Indoor gym and soft play tumbling">
+            <div class="facility-icon-badge"><i class="fa-solid fa-volleyball"></i></div>
+          </div>
+          <div class="facility-content">
+            <h3 class="facility-title">Indoor Soft Play Gymnasium</h3>
+            <p class="facility-desc">Climate-controlled indoor athletics area with foam climbing blocks, tumbling mats, and gross-motor obstacle tracks.</p>
+          </div>
+        </div>
+
+        <!-- Facility 8 -->
+        <div class="facility-card fc-green">
+          <div class="facility-img-box">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=500&q=80" alt="Pediatric nurse wellness room">
+            <div class="facility-icon-badge"><i class="fa-solid fa-heart-pulse"></i></div>
+          </div>
+          <div class="facility-content">
+            <h3 class="facility-title">Pediatric Wellness Clinic</h3>
+            <p class="facility-desc">Staffed daily by an accredited pediatric RN, equipped with nebulizers, first aid suites, and cozy observation rest pods.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Campus Safety Highlights -->
+  <section class="section bg-cream">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-badge yellow">Peace of Mind</span>
+        <h2>Safety Features Built Into Every Detail</h2>
+        <p>We believe safety is not an afterthought; it is woven into every inch of our architecture.</p>
+      </div>
+
+      <div class="features-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+        <div class="feature-card" style="padding: 25px; text-align: left;">
+          <i class="fa-solid fa-fingerprint" style="font-size: 2rem; color: var(--primary); margin-bottom: 12px; display: block;"></i>
+          <h4>Biometric Access Gates</h4>
+          <p class="feature-desc">All entrances require authorized parental biometric scan or digital keycard verification.</p>
+        </div>
+
+        <div class="feature-card" style="padding: 25px; text-align: left;">
+          <i class="fa-solid fa-fan" style="font-size: 2rem; color: var(--secondary); margin-bottom: 12px; display: block;"></i>
+          <h4>HEPA Clean Air Flow</h4>
+          <p class="feature-desc">Continuous hospital-grade air exchange filters that remove 99.97% of airborne dust and microbes.</p>
+        </div>
+
+        <div class="feature-card" style="padding: 25px; text-align: left;">
+          <i class="fa-solid fa-fire-extinguisher" style="font-size: 2rem; color: var(--accent-yellow); margin-bottom: 12px; display: block;"></i>
+          <h4>Child-Safe Architecture</h4>
+          <p class="feature-desc">Finger-pinch guard door hinges, rounded cabinet corners, and non-slip eco rubber flooring.</p>
+        </div>
+
+        <div class="feature-card" style="padding: 25px; text-align: left;">
+          <i class="fa-solid fa-bus" style="font-size: 2rem; color: var(--accent-purple); margin-bottom: 12px; display: block;"></i>
+          <h4>Smart GPS Bus Transit</h4>
+          <p class="feature-desc">Live parent tracking app for school bus routes with real-time ETA and seatbelt monitor alerts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="section" style="padding-top: 20px;">
+    <div class="container">
+      <div class="cta-banner">
+        <div class="cta-grid">
+          <div>
+            <h2>Want To See Our Campus In Person?</h2>
+            <p>
+              We host open-door family tours every Tuesday and Thursday morning. Bring your child along to test out our playground!
+            </p>
+            <div class="cta-btns">
+              <a href="appointment.html" class="btn btn-primary btn-lg">
+                <i class="fa-solid fa-calendar-check"></i> Book Campus Tour
+              </a>
+              <a href="contact.html" class="btn btn-outline-white btn-lg">
+                <i class="fa-solid fa-map-location-dot"></i> Get Directions
+              </a>
+            </div>
+          </div>
+
+          <div class="cta-highlight-box">
+            <div class="cta-highlight-number">25,000</div>
+            <div class="cta-highlight-label">Sq Ft Dedicated Campus</div>
+            <p style="color: #D1E0E3; font-size: 0.9rem; margin-top: 10px;">
+              Featuring 10,000 sq ft of lush green outdoor sensory gardens and play park.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="brand-logo" style="margin-bottom: 20px;">
+            <div class="brand-icon" style="width: 42px; height: 42px; font-size: 1.25rem;">
+              <i class="fa-solid fa-shapes"></i>
+            </div>
+            <div>
+              <div class="brand-title" style="color: #FFFFFF; font-size: 1.6rem;">Kid<span>dle</span></div>
+              <span class="brand-subtitle" style="color: #A3BFC4;">Preschool &amp; Kindergarten</span>
+            </div>
+          </div>
+          <p>
+            Fostering joyful exploration, intellectual curiosity, and empathetic community in children ages 1.5 to 6 years.
+          </p>
+          <div class="top-bar-social" style="justify-content: flex-start;">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-widget-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="about.html"><i class="fa-solid fa-angle-right"></i> About Our Academy</a></li>
+            <li><a href="classes.html"><i class="fa-solid fa-angle-right"></i> Classes &amp; Tuition</a></li>
+            <li><a href="facility.html"><i class="fa-solid fa-angle-right"></i> Campus Facilities</a></li>
+            <li><a href="team.html"><i class="fa-solid fa-angle-right"></i> Certified Teachers</a></li>
+            <li><a href="appointment.html"><i class="fa-solid fa-angle-right"></i> Book A School Tour</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-angle-right"></i> Contact &amp; Hours</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-widget-title">Photo Gallery</h4>
+          <div class="footer-gallery-grid">
+            <div class="footer-gallery-item"><img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=200&q=80" alt="Students in class"></div>
+            <div class="footer-gallery-item"><img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=200&q=80" alt="Art session"></div>
+            <div class="footer-gallery-item"><img src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=200&q=80" alt="Drawing"></div>
+            <div class="footer-gallery-item"><img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=200&q=80" alt="Classroom"></div>
+            <div class="footer-gallery-item"><img src="https://images.unsplash.com/photo-1541689592655-f5f52825a3b8?auto=format&fit=crop&w=200&q=80" alt="Playground"></div>
+            <div class="footer-gallery-item"><img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=200&q=80" alt="Library"></div>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-widget-title">Stay Connected</h4>
+          <p style="font-size: 0.92rem; color: #A3BFC4; margin-bottom: 12px;">
+            Subscribe to our weekly parenting tips, activity printables, and campus event updates.
+          </p>
+          <form class="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="Your email address..." required>
+            <button type="submit" class="newsletter-btn" aria-label="Subscribe">
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+          <div style="margin-top: 18px; font-size: 0.88rem; color: #A3BFC4;">
+            <i class="fa-solid fa-phone" style="color: var(--accent-yellow); margin-right: 6px;"></i> +1 (555) 345-6789
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Kiddle Early Childhood Academy. All Rights Reserved.
+        </div>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Admission</a>
+          <a href="#">Parent Handbook</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Reusable Modal Dialog -->
+  <div class="modal-overlay" id="appModal">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close dialog">&times;</button>
+      <div class="modal-icon" id="modalIcon">
+        <i class="fa-solid fa-check"></i>
+      </div>
+      <h3 id="modalTitle" style="margin-bottom: 12px;">Notification</h3>
+      <div id="modalBody" style="color: var(--muted-text); margin-bottom: 25px; line-height: 1.6;">
+        Your action has been completed.
+      </div>
+      <button class="btn btn-primary" id="modalConfirmBtn" style="min-width: 140px;">Got It!</button>
+    </div>
+  </div>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="backToTopBtn" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="main.js" onerror="this.onerror=null;var s=document.createElement('script');s.src='js/main.js';document.body.appendChild(s);"></script>
+</body>
+</html>

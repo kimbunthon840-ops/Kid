@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book An Appointment - Kiddle Preschool & Kindergarten</title>
+  <meta name="description" content="Schedule a personalized private campus tour or consultation with our early childhood educators. Experience the Kiddle difference.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" onerror="this.onerror=null;this.href='img/favicon.svg';">
+
+  <!-- Google Fonts Preconnect & Ordered Multi-Language Typography (Khmer & Latin) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Kantumruy+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" onerror="this.onerror=null;this.href='css/style.css';">
+</head>
+<body>
+
+  <!-- Top Running Announcement Marquee (អក្សររត់ប្រកាសដំណឹង & ការចុះឈ្មោះ) -->
+  <div class="top-ticker-bar" id="top-announcement-ticker">
+    <div class="ticker-badge-wrap">
+      <span class="ticker-icon"><i class="fa-solid fa-bullhorn"></i></span>
+      <span class="ticker-badge-text">ដំណឹងថ្មី &amp; ចុះឈ្មោះ</span>
+    </div>
+    <div class="ticker-track-wrap">
+      <div class="ticker-track">
+        <!-- Segment 1 -->
+        <div class="ticker-segment">
+          <span class="ticker-item">
+            🎉 <strong>ចុះឈ្មោះចូលរៀនឆ្នាំ ២០២៦-២០២៧:</strong> ទទួលបានអាហារូបករណ៍បញ្ចុះតម្លៃសិក្សា <span class="ticker-highlight">២០% (Early Bird 20% OFF)</span> សម្រាប់ ៥០ នាក់ដំបូង!
+          </span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">
+            🏫 <strong>ទស្សនកិច្ចសាលា &amp; បន្ទប់ឆ្លាតវៃ:</strong> កក់ម៉ោងទស្សនកិច្ចសាលាឥតគិតថ្លៃ <a href="appointment.html" class="ticker-link"><i class="fa-solid fa-calendar-check"></i> កក់ឥឡូវនេះ</a>
+          </span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">
+            🎨 <strong>កម្មវិធីសិក្សា STEAM &amp; Play:</strong> បើកទទួលកុមារអាយុចាប់ពី ១.៥ ឆ្នាំ ដល់ ៦ ឆ្នាំ ជាមួយគ្រូជំនាញគរុកោសល្យអន្តរជាតិ
+          </span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">
+            🍎 <strong>អាហារូបត្ថម្ភសរីរាង្គ (Organic Meals):</strong> ផ្ដល់អាហារ ៣ ពេលប្រកបដោយអនាម័យខ្ពស់ និងបន្ទប់សុខាភិបាល ២៤/៧
+          </span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">
+            📞 <strong>ប្រឹក្សាព័ត៌មានផ្ទាល់:</strong> <a href="tel:+15553456789" class="ticker-link"><i class="fa-solid fa-phone"></i> +1 (555) 345-6789</a> (រៀងរាល់ថ្ងៃចន្ទ - សុក្រ)
+          </span>
+          <span class="ticker-sep">✦</span>
+        </div>
+        <!-- Segment 2 (Duplicate for seamless continuous loop) -->
+        <div class="ticker-segment" aria-hidden="true">
+          <span class="ticker-item">
+            🎉 <strong>ចុះឈ្មោះចូលរៀនឆ្នាំ ២០២៦-២០២៧:</strong> ទទួលបានអាហារូបករណ៍បញ្ចុះតម្លៃសិក្សា <span class="ticker-highlight">២០% (Early Bird 20% OFF)</span> សម្រាប់ ៥០ នាក់ដំបូង!
+          </span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">
+            🏫 <strong>ទស្សនកិច្ចសាលា &amp; បន្ទប់ឆ្លាតវៃ:</strong> កក់ម៉ោងទស្សនកិច្ចសាលាឥតគិតថ្លៃ <a href="appointment.html" class="ticker-link"><i class="fa-solid fa-calendar-check"></i> កក់ឥឡូវនេះ</a>
+          </span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">
+            🎨 <strong>កម្មវិធីសិក្សា STEAM &amp; Play:</strong> បើកទទួលកុមារអាយុចាប់ពី ១.៥ ឆ្នាំ ដល់ ៦ ឆ្នាំ ជាមួយគ្រូជំនាញគរុកោសល្យអន្តរជាតិ
+          </span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">
+            🍎 <strong>អាហារូបត្ថម្ភសរីរាង្គ (Organic Meals):</strong> ផ្ដល់អាហារ ៣ ពេលប្រកបដោយអនាម័យខ្ពស់ និងបន្ទប់សុខាភិបាល ២៤/៧
+          </span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">
+            📞 <strong>ប្រឹក្សាព័ត៌មានផ្ទាល់:</strong> <a href="tel:+15553456789" class="ticker-link"><i class="fa-solid fa-phone"></i> +1 (555) 345-6789</a> (រៀងរាល់ថ្ងៃចន្ទ - សុក្រ)
+          </span>
+          <span class="ticker-sep">✦</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-info">
+        <span><i class="fa-solid fa-location-dot"></i> 742 Evergreen Terrace, Springfield</span>
+        <span><i class="fa-solid fa-clock"></i> Mon - Fri: 8:00 AM - 5:30 PM</span>
+        <span><i class="fa-solid fa-phone"></i> +1 (555) 345-6789</span>
+      </div>
+      <div class="top-bar-social">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-icon">
+          <i class="fa-solid fa-shapes"></i>
+        </div>
+        <div>
+          <div class="brand-title">Kid<span>dle</span></div>
+          <span class="brand-subtitle">Preschool &amp; Kindergarten</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="classes.html" class="nav-link">Classes</a></li>
+        
+        <li class="nav-item nav-dropdown">
+          <a href="#" class="nav-link">Pages <i class="fa-solid fa-chevron-down" style="font-size: 0.75rem; margin-left: 4px;"></i></a>
+          <div class="nav-dropdown-menu">
+            <a href="facility.html" class="nav-dropdown-item">School Facilities</a>
+            <a href="team.html" class="nav-dropdown-item">Our Teachers</a>
+            <a href="call-to-action.html" class="nav-dropdown-item">Admissions CTA</a>
+            <a href="testimonial.html" class="nav-dropdown-item">Parent Testimonials</a>
+            <a href="404.html" class="nav-dropdown-item">404 Recess Page</a>
+          </div>
+        </li>
+
+        <li class="nav-item"><a href="appointment.html" class="nav-link active">Appointment</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="appointment.html" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-calendar-check"></i> Book a Tour
+        </a>
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Page Header Banner -->
+  <header class="page-header">
+    <div class="shape-bubble shape-1"></div>
+    <div class="shape-bubble shape-2"></div>
+    <div class="shape-bubble shape-3"></div>
+    <div class="container">
+      <h1 class="page-header-title">Book A School Tour</h1>
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a>
+        <i class="fa-solid fa-angle-right" style="font-size: 0.75rem; color: var(--muted-text);"></i>
+        <span>Appointment</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Interactive Appointment Section -->
+  <section class="section bg-white">
+    <div class="container appointment-grid">
+      <div class="appointment-form-card">
+        <span class="section-badge">Reserve Your Visit</span>
+        <h2 style="margin-bottom: 12px;">Schedule Your Private Tour</h2>
+        <p style="color: var(--muted-text); margin-bottom: 25px;">
+          Choose your preferred date and time. We will arrange a personal guide and customized walkthrough for your family.
+        </p>
+
+        <form id="appointmentForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Parent's Full Name *</label>
+              <input type="text" name="parent_name" class="form-control" placeholder="e.g. Jessica Taylor" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email Address *</label>
+              <input type="email" name="email" class="form-control" placeholder="jessica@example.com" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Phone Number *</label>
+              <input type="tel" name="phone" class="form-control" placeholder="+1 (555) 234-5678" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Child's Name &amp; Age *</label>
+              <input type="text" name="child_name" class="form-control" placeholder="e.g. Oliver (3.5 yrs)" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Program of Interest *</label>
+              <select name="program" class="form-control" required>
+                <option value="Toddler Explorers (1.5 - 2.5 yrs)">Toddler Explorers (1.5 - 2.5 yrs)</option>
+                <option value="Preschool Little Learners (2.5 - 4 yrs)" selected>Preschool Little Learners (2.5 - 4 yrs)</option>
+                <option value="Kindergarten Scholars (4 - 6 yrs)">Kindergarten Scholars (4 - 6 yrs)</option>
+                <option value="Enrichment STEAM Studio">Enrichment STEAM Studio</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Preferred Time Slot *</label>
+              <select name="time_slot" class="form-control">
+                <option value="Morning Tour (9:30 AM - 10:15 AM)">Morning Tour (9:30 AM - 10:15 AM)</option>
+                <option value="Mid-Day Tour (11:30 AM - 12:15 PM)">Mid-Day Tour (11:30 AM - 12:15 PM)</option>
+                <option value="Afternoon Tour (2:30 PM - 3:15 PM)">Afternoon Tour (2:30 PM - 3:15 PM)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Preferred Tour Date *</label>
+              <input type="date" name="tour_date" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Tour Format</label>
+              <select name="tour_type" class="form-control">
+                <option value="In-Person Campus Walkthrough">In-Person Campus Walkthrough</option>
+                <option value="Virtual Video Consultation (Zoom)">Virtual Video Consultation (Zoom)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Special Inquiries or Developmental Goals</label>
+            <textarea name="notes" class="form-control" placeholder="Any dietary allergies, potty training status, or special interests your child enjoys?"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+            <i class="fa-solid fa-calendar-check"></i> Book Your Tour Now
+          </button>
+        </form>
+      </div>
+
+      <div class="appointment-info-content">
+        <span class="section-badge secondary">Tour Timeline</span>
+        <h2>What to Expect on Your 45-Minute Tour</h2>
+        <p>
+          We know finding the right early childhood academy is one of the most important milestones for your family. Here is how your visit is structured:
+        </p>
+
+        <div class="appointment-info-list">
+          <div class="info-item-box">
+            <div class="info-item-icon" style="background: var(--primary-light); color: var(--primary);">
+              <i class="fa-solid fa-mug-hot"></i>
+            </div>
+            <div>
+              <h4 class="info-item-title">1. Welcome &amp; Director Chat (15 Mins)</h4>
+              <p class="info-item-desc">Enjoy fresh tea or organic coffee while our Director introduces our philosophy and answers your primary questions.</p>
+            </div>
+          </div>
+
+          <div class="info-item-box">
+            <div class="info-item-icon" style="background: var(--secondary-light); color: var(--secondary);">
+              <i class="fa-solid fa-door-open"></i>
+            </div>
+            <div>
+              <h4 class="info-item-title">2. Live Class Observation (15 Mins)</h4>
+              <p class="info-item-desc">See the teachers and children in their natural rhythm: circle song time, hands-on centers, and outdoor playground fun.</p>
+            </div>
+          </div>
+
+          <div class="info-item-box">
+            <div class="info-item-icon" style="background: var(--accent-yellow-light); color: #C78B00;">
+              <i class="fa-solid fa-gift"></i>
+            </div>
+            <div>
+              <h4 class="info-item-title">3. Welcome Kit &amp; Enrollment Guide (15 Mins)</h4>
+              <p class="info-item-desc">Receive an all-inclusive tuition schedule, admission checklist, and a colorful art kit for your child to take home.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tour FAQ Section -->
+  <section class="section bg-cream">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-badge yellow">Frequently Asked Questions</span>
+        <h2>Questions About Booking A Visit</h2>
+        <p>Everything you need to know prior to coming to our Springfield campus.</p>
+      </div>
+
+      <div class="faq-stack">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Can I bring my child with me during the tour?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely! In fact, we highly encourage it. Observing how your child explores our classrooms, touches our learning materials, and reacts to our loving educators is one of the best indicators of a great fit.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What documents should I bring to our appointment?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>No formal documents are necessary for an initial informational tour. If you decide to proceed with immediate enrollment, our admissions coordinator will provide an enrollment folder with health immunization and emergency contact forms.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Are weekend tours available for working parents?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! We offer Saturday Open Morning sessions twice a month from 9:30 AM to 12:30 PM. Please mention in your appointment notes if a Saturday morning visit works best for your schedule.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Is there a fee for scheduling a school tour?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>School tours, trial play dates, and educational consultations are 100% complimentary with no obligation to enroll.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="brand-logo" style="margin-bottom: 20px;">
+            <div class="brand-icon" style="width: 42px; height: 42px; font-size: 1.25rem;">
+              <i class="fa-solid fa-shapes"></i>
+            </div>
+            <div>
+              <div class="brand-title" style="color: #FFFFFF; font-size: 1.6rem;">Kid<span>dle</span></div>
+              <span class="brand-subtitle" style="color: #A3BFC4;">Preschool &amp; Kindergarten</span>
+            </div>
+          </div>
+          <p>
+            Fostering joyful exploration, intellectual curiosity, and empathetic community in children ages 1.5 to 6 years.
+          </p>
+          <div class="top-bar-social" style="justify-content: flex-start;">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-widget-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="about.html"><i class="fa-solid fa-angle-right"></i> About Our Academy</a></li>
+            <li><a href="classes.html"><i class="fa-solid fa-angle-right"></i> Classes &amp; Tuition</a></li>
+            <li><a href="facility.html"><i class="fa-solid fa-angle-right"></i> Campus Facilities</a></li>
+            <li><a href="team.html"><i class="fa-solid fa-angle-right"></i> Certified Teachers</a></li>
+            <li><a href="appointment.html"><i class="fa-solid fa-angle-right"></i> Book A School Tour</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-angle-right"></i> Contact &amp; Hours</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-widget-title">Photo Gallery</h4>
+          <div class="footer-gallery-grid">
+            <div class="footer-gallery-item"><img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=200&q=80" alt="Students in class"></div>
+            <div class="footer-gallery-item"><img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=200&q=80" alt="Art session"></div>
+            <div class="footer-gallery-item"><img src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=200&q=80" alt="Drawing"></div>
+            <div class="footer-gallery-item"><img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=200&q=80" alt="Classroom"></div>
+            <div class="footer-gallery-item"><img src="https://images.unsplash.com/photo-1541689592655-f5f52825a3b8?auto=format&fit=crop&w=200&q=80" alt="Playground"></div>
+            <div class="footer-gallery-item"><img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=200&q=80" alt="Library"></div>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-widget-title">Stay Connected</h4>
+          <p style="font-size: 0.92rem; color: #A3BFC4; margin-bottom: 12px;">
+            Subscribe to our weekly parenting tips, activity printables, and campus event updates.
+          </p>
+          <form class="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="Your email address..." required>
+            <button type="submit" class="newsletter-btn" aria-label="Subscribe">
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+          <div style="margin-top: 18px; font-size: 0.88rem; color: #A3BFC4;">
+            <i class="fa-solid fa-phone" style="color: var(--accent-yellow); margin-right: 6px;"></i> +1 (555) 345-6789
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Kiddle Early Childhood Academy. All Rights Reserved.
+        </div>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Admission</a>
+          <a href="#">Parent Handbook</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Reusable Modal Dialog -->
+  <div class="modal-overlay" id="appModal">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close dialog">&times;</button>
+      <div class="modal-icon" id="modalIcon">
+        <i class="fa-solid fa-check"></i>
+      </div>
+      <h3 id="modalTitle" style="margin-bottom: 12px;">Notification</h3>
+      <div id="modalBody" style="color: var(--muted-text); margin-bottom: 25px; line-height: 1.6;">
+        Your action has been completed.
+      </div>
+      <button class="btn btn-primary" id="modalConfirmBtn" style="min-width: 140px;">Got It!</button>
+    </div>
+  </div>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="backToTopBtn" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="main.js" onerror="this.onerror=null;var s=document.createElement('script');s.src='js/main.js';document.body.appendChild(s);"></script>
+</body>
+</html>
